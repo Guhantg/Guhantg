@@ -14,5 +14,5 @@ int main()
      if(c>b[i])
      c=b[i];
    }
- printf("%d",c);
+ printf("The Minimum Is %d",c);
 }
