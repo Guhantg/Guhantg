@@ -1,16 +1,18 @@
 #include <stdio.h>
 int main()
 {
- int a,i,max;
+ int a,i,c;
+ printf("Enter The Size of array");
  scanf("%d",&a);
  int b[a];
+ printf("Enter The Values");
  for(i=0;i<a;i++)
  scanf("%d",&b[i]);
- max=b[0];
+ c=b[0];
  for(i=1;i<a;i++)
- {
-   if(max>b[i])
-   max=b[i];
- }
- printf("%d",max);
+   {
+     if(c>b[i])
+     c=b[i];
+   }
+ printf("%d",c);
 }
