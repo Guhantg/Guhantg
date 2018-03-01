@@ -2,7 +2,7 @@
 void main()
 {
     int a[10],n,i,j,temp;
-    printf("Enter The Array Of Numbers ");
+    printf("Enter The SIze Of Array");
     scanf("%d",&n);
     printf("Enter The Numbers\n");
     for(i=1;i<=n;i++)
@@ -21,7 +21,7 @@ void main()
            }
         }
     }
-      for(i=0;i<=n;i++)
+      for(i=1;i<=n;i++)
     {
       printf("%d\n",a[i]);
     }
